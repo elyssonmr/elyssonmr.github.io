@@ -3,6 +3,8 @@
         <meta charset="UTF-8">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/roboto.min.css" rel="stylesheet">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
         <title>Élysson MR</title>
@@ -30,9 +32,9 @@
             <div class="clear-fix"></div>
 
             <div class="jumbotron">
-                <h1 style="color: red;">Élysson Mendes Rezende</h1>
+                <h1>Élysson Mendes Rezende</h1>
                 <p>Desenvolvedor Web curioso por tecnologias novas.</p>
-            </div>
+            </div> 
             <div class="well well-sm">
                 <div class="pull-left">
                     <h4>&#169; Élysson MR</h4>
@@ -40,22 +42,31 @@
                 <div class="pull-right">
                     <ul class="nav nav-pills">
                         <li><a href="https://www.linkedin.com/in/elyssonmr"><i class="fa fa-linkedin"></i></a></li>
-
+                        
                         <li><a href="https://www.github.com/elyssonmr"><i class="fa fa-github"></i></a></li>
-                        <li><a href="https://twitter.com/elyssonmr"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/elyssonmr"><i class="fa fa-twitter"></i></a></li> 
                         <li><a href="https://youtube.com/elyssonmr"><i class="fa fa-youtube"></i></a></li>
-                        <li class="last"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li class="last"><a href="mailto:elyssonmr@gmail.com"><i class="fa fa-envelope"></i></a></li>
                         <li><a href="https://www.facebook.com/elyssonmr"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="https://plus.google.com/+ÉlyssonMendesRezende"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="https://instagram.com/elyssonmr/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://instagram.com/elyssonmr/"><i class="fa fa-instagram"></i></a></li>            
                     </ul>
                 </div>
                 <div class="clearfix"></div>
-            </div>
+            </div>           
         </div>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/ripples.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+        </script>
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
