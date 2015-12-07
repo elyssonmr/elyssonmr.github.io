@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+
+THEME = 'pelican-blueidea'
+
 AUTHOR = u'\xc9lysson MR'
-SITENAME = u'\xc9lysson MR'
+SITENAME = u'\xc9lysson MR\'s Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,16 +23,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
 SOCIAL = (('Facebook', 'http://facebook.com/elyssonmr'),
-          ('GitHub', 'http://github.com/elyssonmr'),)
+          ('GitHub', 'http://github.com/elyssonmr'),
+          ('Twitter', 'http://twitter.com/elyssonmr'),
+          ('LinkedIn', 'http://linkedin.com/in/elyssonmr'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# theme Configs
+DISPLAY_SEARCH_FORM = True
+TWITTER_USERNAME = 'elyssonmr'
