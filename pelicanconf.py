@@ -35,5 +35,6 @@ DEFAULT_PAGINATION = False
 # RELATIVE_URLS = True
 
 # theme Configs
+THEME = 'theme/blueidea'
 DISPLAY_SEARCH_FORM = True
 TWITTER_USERNAME = 'elyssonmr'
