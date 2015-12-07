@@ -3,8 +3,6 @@
 from __future__ import unicode_literals
 
 
-THEME = 'pelican-blueidea'
-
 AUTHOR = u'\xc9lysson MR'
 SITENAME = u'\xc9lysson MR\'s Blog'
 SITEURL = ''
