@@ -43,8 +43,15 @@ DEFAULT_PAGINATION = 20
 # Comments config
 DISQUS_SITENAME = 'elyssonmr'
 
-# Analyctics
+# Analytics
 GOOGLE_ANALYTICS = 'UA-49815718-3'
+
+# Plugins
+PLUGINS_PATHS = ['./plugins']
+PLUGINS = ['summary', 'field_summary']
+
+# Summary Config
+SUMMARY_END_MARKER = "<!-- more -->"
 
 # theme Configs
 THEME = 'theme/blueidea'
