@@ -35,7 +35,7 @@ SOCIAL = (('Facebook', 'http://facebook.com/elyssonmr'),
           ('Twitter', 'http://twitter.com/elyssonmr'),
           ('LinkedIn', 'http://linkedin.com/in/elyssonmr'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -50,3 +50,7 @@ GOOGLE_ANALYTICS = 'UA-49815718-3'
 THEME = 'theme/blueidea'
 DISPLAY_SEARCH_FORM = True
 TWITTER_USERNAME = 'elyssonmr'
+DISPLAY_CATEGORIES_ON_SUBMENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_POSTINFO = True
+DISPLAY_AUTHOR_ON_POSTINFO = True
