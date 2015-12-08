@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'\xc9lysson MR'
 SITENAME = u'\xc9lysson MR\'s Blog'
+SITESUBTITLE = 'My Personal Blog'
 SITEURL = ''
 
 PATH = 'content'
@@ -41,6 +42,9 @@ DEFAULT_PAGINATION = False
 
 # Comments config
 DISQUS_SITENAME = 'elyssonmr'
+
+# Analyctics
+GOOGLE_ANALYTICS = 'UA-49815718-3'
 
 # theme Configs
 THEME = 'theme/blueidea'
