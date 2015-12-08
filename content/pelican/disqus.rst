@@ -19,6 +19,22 @@ After you create your pelican blog, open your "pelicanconf.py" and add a new con
 
     DISQUS_SITENAME = 'DISQUS_URL_VALUE'
 
+We just that configuration to let visitors add their comments and start dicscussion inside a blog post, pelican engine takes care of all the rest for us during the site generation. Note that comments are not avaliable in developing server, you need to publish to see it.
+
+Access your published blog to see the comments session like this:
+
+.. image:: images/comments.png
+    :height: 300px
+    :width: 100%
+    :scale: 100%
+    :alt: Comments Image
+    :align: right
+
+**References:**
+
+`What is Disqus <https://help.disqus.com/customer/portal/articles/466179-what-is-disqus->`_
+
+`Howto Setup Comments with Disqus in Pelican <http://querbalken.net/howto-setup-comments-with-disqus-in-pelican-en.html>`_
 
 
 .. _Twitter: https://twitter.com_
