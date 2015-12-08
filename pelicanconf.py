@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 
 # Static
 STATIC_PATHS = ['extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 
 # Blogroll
@@ -38,6 +38,9 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Comments config
+DISQUS_SITENAME = 'elyssonmr'
 
 # theme Configs
 THEME = 'theme/blueidea'
