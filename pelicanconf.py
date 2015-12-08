@@ -12,7 +12,8 @@ PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = u'br'
+DEFAULT_LANG = u'en'
+LANG = u'en_US.UTF-8'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,7 +26,6 @@ AUTHOR_FEED_RSS = None
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
-
 # Blogroll
 LINKS = ()
 
@@ -35,7 +35,7 @@ SOCIAL = (('Facebook', 'http://facebook.com/elyssonmr'),
           ('Twitter', 'http://twitter.com/elyssonmr'),
           ('LinkedIn', 'http://linkedin.com/in/elyssonmr'),)
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
@@ -47,11 +47,11 @@ DISQUS_SITENAME = 'elyssonmr'
 GOOGLE_ANALYTICS = 'UA-49815718-3'
 
 # Plugins
-PLUGINS_PATHS = ['./plugins']
-PLUGINS = ['summary', 'field_summary']
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['summary', 'feed_summary']
 
 # Summary Config
-SUMMARY_END_MARKER = "<!-- more -->"
+SUMMARY_END_MARKER = '<!-- more -->'
 
 # theme Configs
 THEME = 'theme/blueidea'

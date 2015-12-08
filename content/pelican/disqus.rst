@@ -6,7 +6,6 @@ Enabling Disqus on your Pelican blog
 :category: Pelican
 :slug: pelican-disqus
 :authors: Élysson MR
-:summary: Connecting Disqus and Pelican
 
 Disqus enables people register using their cendential of Twitter_, Facebook_, Google_ or Disqus_ to comment blog posts.
 If you are using Pelican_ to generate a blog, using Disqus is really simple, just have to add some cinfiguration. All Pelican's standard themes are ready to use with Disqus, maybe all `downloadable themes`_ are ready to be used with Disqus.
