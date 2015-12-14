@@ -1,7 +1,7 @@
 Enabling Disqus on your Pelican blog
 ####################################
 
-:date: 2015-12-08 10:38
+:date: 2015-12-13
 :tags: Pelican, Disqus
 :category: Pelican
 :slug: pelican-disqus
@@ -44,4 +44,3 @@ Access your published blog to see the comments session like this:
 .. _Disqus: https://disqus.com_
 .. _Pelican: http://blog.getpelican.com/
 .. _downloadable themes: http://www.pelicanthemes.com/
-
