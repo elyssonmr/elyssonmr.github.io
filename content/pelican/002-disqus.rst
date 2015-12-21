@@ -1,7 +1,7 @@
 Enabling Disqus on your Pelican blog
 ####################################
 
-:date: 2015-12-13
+:date: 2015-12-21
 :tags: Pelican, Disqus
 :category: Pelican
 :slug: pelican-disqus
