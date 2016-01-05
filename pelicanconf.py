@@ -25,7 +25,9 @@ AUTHOR_FEED_RSS = None
 # Static
 STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
-                       'extra/favicon.ico': {'path': 'favicon.ico'}}
+                       'extra/favicon.ico': {'path': 'favicon.ico'},
+                       'extra/google21a3e67c56fd4d82.html': {
+                           'path': 'google21a3e67c56fd4d82.html'}}
 
 # Blogroll
 LINKS = ()
