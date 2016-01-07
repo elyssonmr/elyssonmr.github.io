@@ -1,7 +1,7 @@
 What is Pelican?
 ################
 
-:date: 2015-12-21
+:date: 2015-12-14
 :tags: Pelican
 :category: Pelican
 :slug: what-is-pelican
