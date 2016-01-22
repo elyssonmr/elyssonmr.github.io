@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 
 AUTHOR = u'\xc9lysson MR'
-SITENAME = u'\xc9lysson MR\'s Blog'
+SITENAME = u'\xc9lysson MR'
 SITESUBTITLE = 'My Personal Blog'
-SITETAG = 'Hello WOrld'
+SITETAG = 'Let\'s Talk About Some Stuff :)'
 SITEURL = ''
 
 PATH = 'content'
@@ -58,7 +58,7 @@ GOOGLE_ANALYTICS = 'UA-49815718-3'
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['summary', 'feed_summary']
+PLUGINS = ['summary', 'feed_summary', 'tag_cloud']
 
 # Summary Config
 SUMMARY_END_MARKER = '<!-- more -->'
@@ -76,3 +76,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_POSTINFO = True
 DISPLAY_AUTHOR_ON_POSTINFO = True
 DISPLAY_PAGES_ON_MENU = True
+
+# tag Cloud
+TAG_CLOUD_SORTING = 'size'
