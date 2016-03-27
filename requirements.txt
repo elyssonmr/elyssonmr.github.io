@@ -1,3 +1,0 @@
-ghp-import
-pelican
-Markdown
